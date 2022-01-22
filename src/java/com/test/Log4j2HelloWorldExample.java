@@ -11,7 +11,7 @@ public class Log4j2HelloWorldExample{
    static Logger log = Logger.getLogger(Log4j2HelloWorldExample.class.getName());
    
    public static void main(String[] args)throws IOException,SQLException{
-      log.debug("Hello this is a debug message");
-      log.info("Hello this is an info message");
+      log.debug("Hello this is new debug message");
+      log.info("Hello this is new info message");
    }
 }
